@@ -57,6 +57,6 @@ class StoreTest {
 
     @Test
     void search() {
-        assertEquals(flowerPack_3, flowerStoreList_1.search(160));
+        assertEquals(null, flowerStoreList_1.search(16089));
     }
 }
